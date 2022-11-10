@@ -1,0 +1,14 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "user_name": "Ne'matov Javlon",
+      "age": 21
+    },
+    {
+      "user_name": "3ew",
+      "age": "232",
+      "id": 2
+    }
+  ]
+}

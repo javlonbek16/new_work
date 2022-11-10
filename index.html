@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body class="position-relative">
+    <header class="header bg-success">
+      <div class="container">
+        <nav class="nav">
+          <h2 class="header__title text-white py-3">Admin Dashboard</h2>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 p-2 shadow m-1">
+              <form action="#" class="form">
+                <label class="form-label w-100 my-2">
+                  Enter your username
+                  <input
+                    type="text"
+                    id="userName"
+                    required
+                    class="form-control"
+                    placeholder="Enter your username"
+                  />
+                </label>
+
+                <label class="form-label w-100 my-2">
+                  Enter your score
+                  <input
+                    type="number"
+                    id="userScore"
+                    required
+                    class="form-control"
+                    placeholder="Enter your score"
+                  />
+                </label>
+                <button class="btn btn-success w-100 my-2" type="submit">
+                  Add info
+                </button>
+              </form>
+            </div>
+            <div class="col-md-7 p-2 shadow m-1">
+              <table
+                class="table table-striped table-hover border table-bordered"
+              >
+                <thead>
+                  <tr>
+                    <th>ID</th>
+                    <th>Username</th>
+                    <th>Score</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+            </div>
+            <div class="col p-2 shadow m-1"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./plugin.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
